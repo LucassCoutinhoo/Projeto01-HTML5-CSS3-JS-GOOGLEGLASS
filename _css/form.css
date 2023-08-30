@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+    font-family: 'Tilt Neon', cursive;
+}
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    font-family: 'Tektur', cursive;
+    font-weight: normal;
+    font-size: 7pt;
+    border: 1px solid #92bb35; /* Cor da borda dos campos de entrada */
+    color: #FBB829;
+    background-color: rgba#2E3740;
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+legend {
+    color: #ed3b1c;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: 'Tilt Neon', cursive;
+}
+fieldset {
+    border: 2px solid #92bb35; /* Cor da borda do campo do formulário */
+    padding: 10px; /* Espaçamento interno */
+    color: #8cdefc;
+    font-family: 'FonteLogo';
+    padding: 10px;
+    margin: 20px;
+}
+fieldset#sexo {
+    width: 150px;
+}
+fieldset#usuario {
+    background: url(../_imagens/icone-contato.png) no-repeat 95% 95%;
+}
+fieldset#endereco {
+    background: url(../_imagens/icone-endereco.png) no-repeat 95% 95%;
+}
+
+fieldset#mensagem {
+    background: url(../_imagens/icone-mensagem.png) no-repeat 95% 95%;
+}
+
+fieldset#pedido {
+    background: url(../_imagens/icone-pagamento.png) no-repeat 95% 95%;
+}
+
+label {
+    color: #8cdefc; /* Cor do rótulo do campo */
+    padding: 10px;
+}
+

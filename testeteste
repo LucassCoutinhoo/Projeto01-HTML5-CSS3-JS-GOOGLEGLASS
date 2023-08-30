@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Teste de JavaScript</title>
+
+    <script>
+        function mudaLampada() {
+            document.getElementById("luz"). "_imagens/lampada-acesa.jpg";
+        }       
+    </script>
+</head>
+<body>
+    <h1>Ascenda a Lâmpada</h1>
+    <img src="_imagens/lampada-apagada.jpg" id="luz" onmouseover="mudaLampada()" onmouseout="mudaLampada()" onclick="mudaLampada()" alt="Lâmpada">
+</body>
+</html>

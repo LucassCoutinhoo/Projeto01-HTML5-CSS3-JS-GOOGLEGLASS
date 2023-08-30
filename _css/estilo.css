@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+    font-family: 'Tilt Neon', cursive;
+}
+body{ 
+   font-family: Arial, Helvetica, sans-serif;
+    background-color: #1c242d; 
+    color: rgb(255, 255, 255);
+        }
+div#Interface {
+    width: 900px;
+    background-color: #1c242d;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px #ed3b1c;
+    padding: 10px;
+}
+
+        p {
+    text-align: justify;
+    text-indent: 50px;
+            }  
+        a {
+text-decoration: none;
+color: #92bb35;
+            }
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1040px;
+    top: 60px;
+}
+header#cabecalho {
+    border-bottom: 1px solid #92bb35;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 85px;
+}
+header#cabecalho h1{
+    font-family: 'Tektur', cursive;
+    font-size: 40px;
+    color: #68d1f6;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2 {
+    font-family: 'Tektur', cursive;
+    font-size: 15pt;
+    color: #8cdefc;
+    text-shadow: 1px 1px 1px rgb(218, 213, 89);
+    padding: 0px;
+    margin-top: 0px;
+}
+article#noticia-principal h2 {
+font-size: 14pt;
+color: #ed3b1c;
+background-color: #2E3740;
+padding: 5px 0px 5px 10px;
+margin: 10px 0px 10px 0px;
+font-family: 'Tilt Neon', cursive;
+}
+header#cabecalho-artigo h1{
+    font-family: 'FonteLogo';
+    font-size: 20pt;
+    color: #92bb35;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.direita {
+    text-align: right;
+    font-size: 8pt;
+    color: #8cdefc;
+}
+header#cabecalho-artigo h2{
+    font-size: 10pt;
+    color: #FBB829;
+    background-color: #1c242d;
+    margin: 0px;
+    font-family: 'Tektur', cursive;
+}
+header#cabecalho-artigo h3{
+    font-size: 8pt;
+    color: #FBB829;
+
+}
+
+
+            /* Formatação de imagens com legendas*/
+
+ .foto_legenda {
+    position: relative; 
+    padding-left: 8px;
+      border: 2px solid #92bb35; 
+      max-width: 510px; 
+      box-shadow: 1px 1px 4px #92bb35;
+ }
+ .foto_legenda img {
+    max-width: 100%; 
+    height: auto; 
+}
+.legenda {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: #FBB829;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1.3s;
+}
+
+.foto_legenda:hover .legenda {
+    opacity: 1;
+}
+/* Formatação do Menu */
+
+nav#Menu {
+    display: block;
+}
+
+nav#Menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 580px;
+    }
+
+nav#Menu li{
+    display: inline-block;
+    background-color: #242f39;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.3s;
+}
+nav#Menu li:hover {
+    background-color: #403c3c;
+    
+}
+nav#Menu li a {
+    font-family: Arial, sans-serif"Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+    font-weight: 200;
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+nav#Menu li a:hover {
+    color:  #ed3b1c; /* Cor do texto quando o mouse passa por cima (hover) */
+    background-color: none; /* Cor do fundo quando o mouse passa por cima (hover) */
+}
+nav#Menu h1 {
+display: none;
+}
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #92bb35;
+    padding-right: 15px ;
+}
+
+aside#lateral {
+display: block;
+width: 350px;
+float: right;
+background-color: #2E3740;
+padding: 10px;
+margin-top: 10px;
+box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5)
+}
+aside#lateral h1 {
+    font-family: 'FonteLogo';
+    font-size: 20pt;
+    color: #ed3b1c;
+    margin-top: 0px;
+}
+aside#lateral h2 {
+background-color: #1c242d;
+color:#FBB829 ;
+font-size: 13pt;
+padding: 5px;
+font-family: 'Tektur', cursive;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #92bb35;
+    text-align: center;
+}
+
+footer#rodape p {
+    text-align: center;
+    margin: auto;
+   }
+   footer#rodape p#teste {
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 10px;
+   }
+
+footer#rodape a {
+    color: #92bb35;
+    margin: 10px;
+}
+table#tabelaspec {
+    border: solid 1px #FBB829;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td {
+    border: solid 1px #FBB829;
+    padding: 10px;
+    text-align: right;
+    vertical-align: top;
+    color: #8cdefc;
+}
+table#tabelaspec td.ce {
+font-weight: bold;
+vertical-align: top;
+background-color: #2E3740;
+color: #ed3b1c;
+}
+table#tabelaspec td.cd {
+background-color:#221f2a ;
+color: #68d1f6;
+text-align: left;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+font-size: small;
+}
+table#tabelaspec caption {
+    font-family: 'Tektur', cursive;
+    font-size: 13pt;
+    font-weight: bolder;
+    color: #92bb35;
+}
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: #FBB829;
+    font-size: 7pt;
+    margin-top: 10px;
+}
+video#home {
+    width: 100%; /* Defina a largura desejada para os vídeos */
+    height: auto; /* Isso garantirá a proporção correta */
+}

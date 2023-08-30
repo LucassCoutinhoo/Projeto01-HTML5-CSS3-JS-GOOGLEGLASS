@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+    font-family: 'Tilt Neon', cursive;
+}
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+    
+}
+iframe#frame-spec {
+    width: 400px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+}
